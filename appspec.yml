@@ -2,12 +2,12 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/
+     destination: /var/www/html/second
 permissions:
    - object: /var/www/html/
      pattern: "**"
      owner: ubuntu
-     group: ubuntu
+     group: www-data
      mode: 755
      type:
        - file
