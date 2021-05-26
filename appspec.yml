@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/second
+     destination: /var/www/html/second/
 permissions:
-   - object: /var/www/html/
+   - object: /var/www/html/second/
      pattern: "**"
      owner: ubuntu
      group: www-data
