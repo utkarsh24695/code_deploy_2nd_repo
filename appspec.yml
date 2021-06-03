@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /var/www/html/second/
 permissions:
-   - object: /var/www/html/second/
+   - object: /var/www/html/first/second/
      pattern: "**"
      owner: ubuntu
      group: www-data
