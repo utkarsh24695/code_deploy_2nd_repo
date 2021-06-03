@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/second/
+     destination: /var/www/html/first/fsecond/
 permissions:
    - object: /var/www/html/first/second/
      pattern: "**"
