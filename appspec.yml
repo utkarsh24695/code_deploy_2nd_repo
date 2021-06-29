@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/second/
+     destination: /var/www/html/
 permissions:
-   - object: /var/www/html/first/second/
+   - object: /var/www/html/first/
      owner: ubuntu
      group: www-data
      mode: 755
